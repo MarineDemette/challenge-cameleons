@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #2f3848;
+    max-width: 900px;
+    margin: auto;
+    font-family: "Open Sans";
+    
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    background-color: #f05768;
+    height: 75px;
+    border-radius: 5px;
+    border-bottom: cyan solid 3px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    padding-right: 15px;
+    font-weight: bold;
+
+}
+
+a {
+    color: yellowgreen;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #00ccff;
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+}
+
+.highlight {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #f05768;
+    width: 40%;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#cameleonfirst {
+    width: 100%;
+}
+
+.logo2 img {
+    height: 20px;
+}
+
+
+.Galerie {
+    width: 70%;
+    font-size: 0;
+}
+
+.Galerie img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(25% - 10px);
+}
+
+.Galerie img:first-child {
+    float: left;
+    width: calc(50% - 10px);
+}
+
+.Galerie :nth-child(15) {
+    border: solid 5px red;
+}
+
+
+#proposition {
+    background-color: #004488;
+    width: 30%;
+    padding: 5px;
+    align-self: flex-start;
+}
+
+#blocbleu {
+    color: #00ccff;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#proposition hr {
+    border-color: #00ccff;
+    width: 80%;
+
+
+}
+
+.blocvert {
+    color: yellowgreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#news {
+    color: #00ccff;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#copy p {
+    color: #00ccff;
+    text-align: center;
+}
